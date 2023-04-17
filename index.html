@@ -1,39 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>Document</title>
-</head>
-<body>
-  <div class="container">
-<div class="container-searchbox">
-    <input type="text" name="" id="searchBox" placeholder="Search...">
-    <i class="material-icons" >search</i>
-</div>
-    <div class="container-info">
-        <p class="title-info">
-            Loading..
-        </p>
-        <p class="temp-info">
-           18&#8451;
-        </p>
-        <div class="temp-info">
-            <i class='fas fa-snowflake' style='font-size:24px'></i>
-        </div>
-    </div>>
-   
-      
-  </div>  
-  
-  <script src="script.js"></script>
-  
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
 
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-searchbox">
+        <input type="text" name="" id="searchBox" placeholder="Search..." />
+        <i class="material-icons">search</i>
+      </div>
+      <div class="container-info">
+        <div class="title-info">
+          <span class="loading-wedether">Loading...</span>
+          <span class="title-info-city">Tehran</span>
+        </div>
+
+        <div class="temp-info">
+          <span class="temp-info-value">15</span>&#8451;
+        </div>
+        <div class="des-info">
+          <i class="ico"></i>
+          <span class="des-info-status">widy</span>
+        </div>
+        <div class="rutubat-info">
+          <span>rutubat: </span>
+          <span class="rutubat-info-value">63</span>
+          <span>%</span>
+        </div>
+        <div class="windy-info">
+          <span>windyspeed: </span>
+          <span class="windy-info-value">74</span>
+          <span>KM/H</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>

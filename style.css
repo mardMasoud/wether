@@ -24,7 +24,7 @@ body{
     color: beige;
 }
 #searchBox{
-    height: 28px;
+    height: 36px;
     border-radius: 15px;
     width: 60%;
     padding: 10px;
@@ -40,13 +40,26 @@ gap: 10px;
 width: 100%;
 }
 .material-icons{
-    cursor:default;
-    font-size: small;
+    cursor:pointer;
+   
     background-color: rgb(87, 71, 71);
     border-radius: 50%;
+    padding: 5px;
+   
+}
+.material-icons:hover{
+    background-color:rgb(143, 112, 112); ;
 }
 
 .container-info{
     padding-left:70px ;
-    color:white
+    color:white;
+    display: flex;
+    flex-direction: column;
+   
 }
+.title-info,.temp-info{
+    margin-top:12px;
+    margin-bottom: 12px;
+}
+.des-info{margin-bottom: 5px;}
