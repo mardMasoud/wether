@@ -38,6 +38,7 @@ body{
 justify-content: center;
 gap: 10px;
 width: 100%;
+
 }
 .material-icons{
     cursor:pointer;
@@ -54,12 +55,25 @@ width: 100%;
 .container-info{
     padding-left:70px ;
     color:white;
-    display: flex;
-    flex-direction: column;
+    display: none;
+    
    
 }
-.title-info,.temp-info{
+.title-info{
     margin-top:12px;
+    margin-bottom: 12px;
+    padding-left:70px ;
+    color:white;
+}
+.temp-info{
     margin-bottom: 12px;
 }
 .des-info{margin-bottom: 5px;}
+.container-section1{
+    display: flex;
+    flex-direction: column;
+}
+.show{
+    display: flex;
+    flex-direction: column;
+}
